@@ -1,6 +1,7 @@
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #7C5E99;
     border-bottom: 10px solid #000;
     padding: 10px 20px 10px 20px;
@@ -10,6 +11,12 @@ header img {
     width: 60px; 
     height: 60px; 
     border-radius: 20px;
+}
+
+h1 {
+    font-family: 'Press Start 2P', system-ui, sans-serif;
+    color: #fff;
+    text-shadow: 5px 5px 0px #000;
 }
 
 nav {
@@ -43,13 +50,16 @@ a:hover {
 #button {
     display: inline-block;
     background-color: #3A4042;
-    /*P1° valor: top-bottom; 2° valor: right-left. Obs: segue também o sentido horário de um relógio.*/
+    /*1° valor: top-bottom; 2° valor: right-left. Obs: segue também o sentido horário de um relógio.*/
     padding: 18px 20px;
-    /* Sequências da box-shadow: Eixo X, Eixo Y, Sombreado, Cor */
+    /*Sequências da box-shadow: Eixo X, Eixo Y, Sombreado, Cor */
     box-shadow: 5px 5px 0px #000;
     margin-right: 0;
+    transition: transform 0.3s linear;
 }
 
 #button:hover {
-    color: #000;
+    color: gray;
+    /*Alterações na forma do elemento.*/
+    transform: scale(1.04);
 }
