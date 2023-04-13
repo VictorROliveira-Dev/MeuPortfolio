@@ -1,0 +1,25 @@
+.banner {
+    background-image: url(../../Assets/imgFundoWebSite.jpg);
+    background-repeat: no-repeat;
+    height: 660px;
+    background-size: 100%;
+    border-bottom: 10px solid #7f8fa6;
+    box-sizing: border-box;
+    padding-top: 115px;
+    padding-left: 90px;
+}
+
+.banner .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.banner .box {
+    margin-bottom: 40px;
+}
+
+.banner .navigation {
+    display: flex;
+    justify-content: space-around;
+}
