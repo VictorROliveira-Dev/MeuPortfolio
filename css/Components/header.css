@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7C5E99;
+    border-bottom: 10px solid #000;
+    padding: 10px 20px 10px 20px;
+}
+
+.header-cl {
+    font-family: 'Press Start 2P', system-ui, sans-serif;
+    color: #fff;
+    font-size: 15px;
+    /*Eixo X, Eixo Y, Sombreamento e cor do sombreamento.*/
+    text-shadow: 5px 5px 0px #000;
+}
