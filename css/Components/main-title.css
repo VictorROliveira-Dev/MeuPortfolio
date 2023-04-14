@@ -1,0 +1,15 @@
+.main-title {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 20px;
+    color: #7C5E99;
+    text-shadow: 4px 4px 0px #000;
+    margin-bottom: 10px;
+}
+/*Variação de classe*/
+.main-title.-second {
+    font-family: 'system-ui', sans-serif;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: none;
+}
