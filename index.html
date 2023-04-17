@@ -12,13 +12,13 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/Components/scrollbar.css">
     <link rel="stylesheet" href="css/Components/main-title.css">
-    <link rel="stylesheet" href="css/Components/subtitle.css">
-    <link rel="stylesheet" href="css/Components/box.css">
-    <link rel="stylesheet" href="css/Components/button.css">
-    <link rel="stylesheet" href="css/Components/action.css">
-    <link rel="stylesheet" href="css/Components/header.css">
-    <link rel="stylesheet" href="css/Components/banner.css">
-    <link rel="stylesheet" href="css/Components/section.css">
+    <link rel="stylesheet" href="css/Components/main-subtitle.css">
+    <link rel="stylesheet" href="css/Components/main-box.css">
+    <link rel="stylesheet" href="css/Components/main-button.css">
+    <link rel="stylesheet" href="css/Components/main-action.css">
+    <link rel="stylesheet" href="css/Components/main-header.css">
+    <link rel="stylesheet" href="css/Components/main-banner.css">
+    <link rel="stylesheet" href="css/Components/main-section.css">
     <link rel="stylesheet" href="css/Components/img.css">
     <link rel="stylesheet" href="css/Components/skill.css">
     <link rel="stylesheet" href="css/Components/progress-bar.css">
@@ -26,38 +26,39 @@
     <link rel="stylesheet" href="css/Components/imgCards.css">
     <link rel="stylesheet" href="css/Components/card-project.css">
     <link rel="stylesheet" href="css/Components/wrapper-card.css">
+    <link rel="stylesheet" href="css/Components/main-description.css">
 
     <title>Portfólio</title>
 </head>
 
 <body>
-    <header class="header">
-        <h1 class="header-cl">Victor Oliveira</h1>
+    <header class="main-header">
+        <h1 class="main-header-cl">Victor Oliveira</h1>
 
         <nav> <!--Navegação do site:-->
-            <a class="action" lang="en" href="">Skills</a>
-            <a class="action" lang="en" href="">Projects</a>
-            <a class="action" lang="en" href="">About Me</a>
-            <a class="action" lang="en" href="">Contact</a>
-            <a class="button" lang="en" href="">Download CV</a>
+            <a class="main-action" lang="en" href="">Skills</a>
+            <a class="main-action" lang="en" href="">Projects</a>
+            <a class="main-action" lang="en" href="">About Me</a>
+            <a class="main-action" lang="en" href="">Contact</a>
+            <a class="main-button" lang="en" href="">Download CV</a>
         </nav>
     </header>
 
-    <section class="banner">
+    <section class="main-banner">
         <div class="wrapper">
-            <div class="box">
+            <div class="main-box">
                 <h1 class="main-title">Victor Oliveira</h1>
-                <h2 class="subtitle">Web Developer</h2>
+                <h2 class="main-subtitle">Web Developer</h2>
             </div>
 
             <div class="navigation">
-                <a class="button" href="" lang="en">Download CV</a>
-                <a class="button" href="" lang="en">Contact</a>
+                <a class="main-button" href="" lang="en">Download CV</a>
+                <a class="main-button" href="" lang="en">Contact</a>
             </div>
         </div>
     </section>
 
-    <section class="section">
+    <section class="main-section">
         <h2 class="main-title -second">Skills</h2>
 
         <div class="wrapper-skill">
@@ -144,7 +145,7 @@
     </section>
 
 
-    <section class="section -bgBlack">
+    <section class="main-section -bgBlack">
         <h2 class="main-title -second">Projects</h2>
 
         <div class="wrapper-card">
@@ -158,15 +159,23 @@
                 <figure class="card-project -blue">
                     <img class="logo" src="Img/icone_calculadora.png" alt="logo projeto calculadora">
                 </figure>
-            </a>           
+            </a>
 
             <a href="https://github.com/VictorROliveira-Dev/CRUDcontatos" target="_blank">
                 <figure class="card-project">
                     <img class="logo" src="Img/icone_crud.png" alt="logo projeto CRUD">
                 </figure>
-            </a>         
+            </a>
         </div>
     </section>
+
+    <p class="main-description">
+        Me formei em junho de 2023 em Ciência da Computação, e ando aperfeiçoando 
+        minhas habilidades no desenvolvimento web, no sentido FullStack, 
+        com HTML, CSS, JavaScript, ReactJS e NodeJs. Tenho bons conhecimentos
+        na programação orientada a objetos com C#, possuo bom conhecimento de Git, 
+        Excel básico e inglês avançado.
+    </p>
 </body>
 
 </html>
