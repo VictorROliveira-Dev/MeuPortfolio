@@ -8,3 +8,11 @@
 .section .main-title.-second {
     margin-bottom: 30px;
 }
+/*Criando variação da section com pseudo-classe: */
+.section.-bgBlack {
+    background-color: #000;
+}
+/*Criando variação da borda com pseudo-classe: */
+.section.-bdFirst {
+    border-color: #40739e;
+}
