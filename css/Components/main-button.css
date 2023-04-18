@@ -12,10 +12,23 @@
     font-weight: 100;
     color: #fff;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .main-button:hover {
     color: #fff;
     /*Alterações na forma do elemento.*/
     transform: scale(1.04);
+}
+
+.main-button.-btnForm {
+    width: 100%;
+    text-align: center;
+    box-shadow:none;
+    font-weight: bold;
+    background-color: #16a085;
+}
+
+.main-button.-btnForm:hover {
+    transform: none;
 }

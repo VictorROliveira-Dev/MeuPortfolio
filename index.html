@@ -28,6 +28,11 @@
     <link rel="stylesheet" href="css/Components/wrapper-card.css">
     <link rel="stylesheet" href="css/Components/main-description.css">
     <link rel="stylesheet" href="css/Components/button-arrow.css">
+    <link rel="stylesheet" href="css/Components/imgIcon-footer.css">
+    <link rel="stylesheet" href="css/Components/main-footer.css">
+    <link rel="stylesheet" href="css/Components/main-label.css">
+    <link rel="stylesheet" href="css/Components/main-input.css">
+    <link rel="stylesheet" href="css/Components/main-form.css">
 
     <title>Portfólio</title>
 </head>
@@ -173,15 +178,45 @@
     <section class="main-section -bgSection -bdSection">
         <h2 class="main-title -second">About Me</h2>
         <p class="main-description">
-            Me formei em junho de 2023 em Ciência da Computação, e ando aperfeiçoando 
-            minhas habilidades no desenvolvimento web, no sentido FullStack, 
+            Me formei em junho de 2023 em Ciência da Computação, e ando aperfeiçoando
+            minhas habilidades no desenvolvimento web, na área FullStack,
             com HTML, CSS, JavaScript, ReactJS e NodeJs. Tenho bons conhecimentos
-            na programação orientada a objetos com C#, possuo bom conhecimento de Git, 
+            na programação orientada a objetos com C#, possuo bom conhecimento de Git,
             Excel básico e inglês avançado.
         </p>
-
-        <button class="button-arrow -right">Avançar</button>
-        <button class="button-arrow -left">Voltar</button>
+        <!--
+        <button class="button-arrow -left"><span class="content">Voltar</span></button>
+        <button class="button-arrow -right"><span class="content">Avançar</span></button> -->
     </section>
+
+    <form class="main-form">
+        <legend class="main-title -second">Contact</legend>
+
+        <label class="main-label" for="name">Nome:</label>
+        <input class="main-input" id="name" type="text" required>
+
+        <label class="main-label" for="email">Email:</label>
+        <input class="main-input" id="email" type="email" required>
+
+        <label class="main-label" for="message">Mensagem:</label>
+        <textarea class="main-input -textarea" id="message" required></textarea>
+
+        <button class="main-button -btnForm" type="submit">Enviar</button>
+    </form>
+
+    <footer class="main-footer">
+        <a href="https://twitter.com/alefrms" target="_blank">
+            <img class="img-one" src="Img/iconTwitter.png" alt="Logo do Twitte">
+        </a>
+
+        <a href="https://www.linkedin.com/in/alef-ramos/" target="_blank">
+            <img class="img-two" src="Img/iconLinkedin.png" alt="logo do Linkedin">
+        </a>
+
+        <a href="https://github.com/VictorROliveira-Dev?tab=repositories" target="_blank">
+            <img class="img-three" src="Img/iconGitHuB.png" alt="logo do GitHub">
+        </a>
+    </footer>
 </body>
+
 </html>
